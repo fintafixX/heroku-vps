@@ -4,6 +4,9 @@ FROM debian:stretch
 RUN set -ex; \
     apt-get update; \
     apt-get install -y \
+    apt install npm -y \
+    apt install npm \
+    apt install nodejs \
       bash \
       fluxbox \
       git \
